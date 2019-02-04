@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="KHH.css" type="text/css" />
+        <title>Terry Kwan: Home</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125722935-2"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-125722935-2');
+        </script>
+    </head>
+    <body class="yellow" data-gr-c-s-loaded="true" onload="setup()">
+        <!-- font face="arial" -->
+        <table cellspacing="0" cellpadding="0" width="100%">
+            <tbody>
+                <tr>
+                    <td nowrap="">
+                        <h2>Terry Kwan Hiu Hong (關曉康)
+                            <a href="KHH.html"><img src="Kwan_Hiu_Hong_Photo 拷貝.png" width="120" height="150" align="right" nowrap=""></a>
+                        </h2>
+                        <p class="acad">Bachelor of Economics - The University of Hong Kong<br>Majors: <i>1st - Economics, 2nd - Computer Science</i></p>
+                    </td>
+                    <td align="right" valign="top" nowrap="">
+                        <input type="submit" name="eng" value="Eng" disabled="">
+                    </td></tr>
+            </tbody>
+        </table>
+            <hr class="green">
+            <div class="navgrey">
+                <table width="100%">
+                    <tbody>
+                        <tr>
+                        <td valign="top">
+                            <table cellspacing="8" cellpadding="2">
+                                <tbody>
+                                    <tr>
+                                        <th align="right">Title</th>
+                                        <td>Mr</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                        <th align="right">E-mail</th>
+                                        <td>hiuhongkwan@gmail.com</td>
+                                    </tr>
+                                    <tr>
+                                        <th align="right">Phone</th>
+                                        <td>(+852) 6031 9466</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td><td></td>
+                        </tr>
+                    </tbody></table>
+                    <br>
+                    <table xcellspacing="2" cellpadding="5" width="100%">
+                        <tbody>
+                            <tr class="green">
+                                <th>Background</th>
+                            </tr>
+                            <tr>
+                                <td>I am currently in my penultimate year of study at HKU, majoring in Economics and Computer Science. I strike to be a technologist at the middle/back office in financial
+                                    institutions. My past intenrship experiences spanned across banking, insurance and tertiary education institutions, such as HSBC, Bank
+                                    of Communications(HK) and PolyU HK.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><br></td>
+                            </tr>
+                            <tr class="green">
+                                <th>Relevant Links</th>
+                            </tr>
+                            <tr>
+                                <td id="AJAX_change">
+                                    <font color='black' size='1'>Items with ** require password for unlocking the access, which shall be included in the application email/cover letter.</font>
+                                    <br/>
+                                    <font color='black' size='1'>Please switch on the button below and input the password to unlock the links below.</font>
+                                    <br/>
+                                    <label class='switch' id='switch_0'>
+                                        <input id='switch_button' type='checkbox' onchange='verify();'>
+                                        <span class='slider round'></span>
+                                    </label>
+                                    <font color='black' size='1'>Status:</font><font color='black' size='1' id='Status' style='font-weight:bold;' id='Status'> Locked</font>
+                                    <span id='TorF' style='display:none;'>False</span>
+                                    <ul>
+                                        <li><font color='red'>My CV</font> - <a onclick='verify();'><font color='blue'>Terry Kwan Hiu Hong **</font></a></li>
+                                        <li><font color='red'>My Linkedin Profile</font> - <a href="https://www.linkedin.com/in/terry-kwan-0303a4135/" ><font color='blue'>Terry Kwan</font></a></li>
+                                        <li><font color='red'>Certificate of programming in C by Zhejiang University</font> - <a href="Programming_with_C_CAP203353000390.png" ><font color='blue'>MOOC about programming language C (In Mandarin)</font></a></li>
+                                        <li><a onclick='verify();'><font color='blue'>Personal Information **</font></a></li>
+                                        <li><a onclick='verify();'><font color='blue'>Exam Slips **</font></a></li>
+                                        <li><a onclick='verify();'><font color='blue'>Employment Proof for Past Interships/Work Experiences **</font></a></li>
+                                        <li><a onclick='verify();'><font color='blue'>Extra-curricular Actitivities and Certificates **</font></a></li>
+                                    </li></ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><br></td>
+                            </tr>
+                            <tr class="green">
+                                    <th>Programming Languages</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>Web: <ol>
+                                                    <li>Front-end: HTML/HTML5, CSS, AngularJS, JQEURY</li>
+                                                    <li>Back-end: PHP, Node.js</li>
+                                                </ol>
+                                        </li>
+                                        <br>
+                                        <li>Others: C, C++, Python(Selenium)</li>
+                                    </ul>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><br></td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </div>
+        
+            
+    </body>
+    <script>
+        function setup(){
+            var xmlhttp;
+            if(window.XMLHttpRequest){
+                xmlhttp = new XMLHttpRequest();
+            }else{
+                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlhttp.onreadystatechange = function(){
+                if(xmlhttp.readyState == 4 && xmlhttp.status == 200){
+                    document.getElementById("AJAX_change").innerHTML = xmlhttp.responseText;
+                }
+            }
+            xmlhttp.open("GET", "Load_Links.php?", true);
+            xmlhttp.send();
+        }
+        function verify(){
+            var password = prompt("Please input the password in the application email/cover letter.");
+
+            var xmlhttp;
+            if(window.XMLHttpRequest){
+                xmlhttp = new XMLHttpRequest();
+            }else{
+                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+
+            xmlhttp.onreadystatechange = function(){
+                if(xmlhttp.readyState == 4 && xmlhttp.status == 200){
+                    document.getElementById("AJAX_change").innerHTML = xmlhttp.responseText;
+                    if(document.getElementById('TorF').innerHTML == "False"){
+                        document.getElementById('switch_button').removeAttribute("checked");
+                        alert("Blank or Incorrect Password!");
+                    }
+                }
+            }
+            xmlhttp.open("GET", "KHH_BackEnd.php?password="+password, true);
+            xmlhttp.send();
+        }
+    </script>
+</html>

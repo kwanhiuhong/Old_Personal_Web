@@ -1,0 +1,187 @@
+/*class*/
+.navgrey a:link { text-decoration: none; color: #0000a0; }
+.navgrey a:visited { text-decoration: none; color: #8080ff; }
+.navgrey a:hover { text-decoration: underline; color: green; background-color: #FFF8C6; }
+
+.navpink a:link { text-decoration: none; color: #7401DF; }
+.navpink a:visited { text-decoration: none; color: #8080ff; }
+.navpink a:hover { text-decoration: underline; color: green; background-color: #FFF8C6; }
+
+
+/* body */
+body {
+	font-family: Arial, sans-serif; 
+}
+
+/* intro */
+/* admission_main */
+h2, h3 { color: #0000a0; }
+
+
+/* intro */
+.fs2 { color: #0000a0; }
+.fs3 { color: #7401DF; }
+p.acad{ margin-left: 50px; }
+p.acae{ margin-left: 50px; }
+
+.ul11 {
+margin-top: 20px;
+margin-bottom: 20px; 
+margin-left: 20px; 
+padding-left: 20px; 
+line-height: 1.8em;
+} 
+
+/*school_student, */
+.ul1 {
+margin-top: 20px;
+margin-left: 20px; 
+padding-left: 20px; 
+line-height: 1.8em;
+} 
+
+
+/* event_main */
+.ul3 {
+margin-top: 20px;
+margin-left: -18px; 
+padding-left: 20px; 
+line-height: 1.8em;
+} 
+
+
+hr.green { color: #89D9D6; }
+
+/*body, tr, */
+/*directory,  faculty, */
+.yellow { background-color:#e9ebee; }
+/* .yellow { background-color:rgb(254, 255, 221); } */
+
+/*tr*/
+.green { background-color: #89D9D6; }
+
+/*table,tr*/
+.green2 { background-color: #ddedde; }
+
+/*table*/
+/*directory,  faculty, */
+.white {background-color: #FFFFFF; }
+
+/*tr.green3 { background-color: #ddeeee; }
+tr.pink { background-color: pink; }*/
+
+/*event*/
+#sty ul{
+margin-left: 20px; 
+padding-left: 10px; 
+}
+
+#sty li {margin-bottom:25px;} 
+
+/*more*/
+#ul2 ul{ 
+margin: 10px 10px 10px 32px;
+padding: 0px 0px 0px 0px;
+}
+
+#ul2 li{
+margin: 10px 10px 10px 10px;
+padding: 5px 5px 5px 5px;
+}
+
+.moreifr { margin-left: -20px; }
+
+/* ultoday (by Y.K.Lau) */
+.ultoday {background-color:#6699FF;color:#74019F;text-decorolation:none;}
+.ultoday li {padding:5 5 5 5;}
+.ultoday a:link { text-decoration: none; color: white; }
+.ultoday a:visited {text-decoration: none; color: white;}
+.ultoday a:hover { text-decoration: underline; color: green; background-color: 
+#FFF8C6; }
+
+
+/* +++++++++ AlumniNews +++++++++ */
+.navAlumni a:link    { text-decoration: none;      color: #2B65EC; }
+.navAlumni a:visited { text-decoration: none;      color: #2B60DE; }
+.navAlumni a:active  { text-decoration: none;      color: #2B60DE; }
+.navAlumni a:hover   { text-decoration: underline; color: #3A01DF; }
+
+.tableAlumni {
+	border-collapse: collapse;
+}
+
+/* +++++++++ end of AlumniNews +++++++++ */
+
+
+
+/* +++++++++ Doris Chen Memorial Funds +++++++++ */
+.navDorisChen a:link    { text-decoration: none;      color: #ffffff; }
+.navDorisChen a:visited { text-decoration: none;      color: #ffffff; }
+.navDorisChen a:active  { text-decoration: none;      color: #ffffff; }
+.navDorisChen a:hover   { text-decoration: underline; color: #FFA500; }
+
+.tableDorisChen {
+	border-collapse: collapse;
+}
+
+.headerDorisChen {
+	color: #0066FF;
+}
+
+/* +++++++++ end of Doris Chen Memorial Funds +++++++++ */
+/* This is for the toggle switch button. */
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 30px;
+	height: 15px;
+  }
+  
+  .switch input {display:none;}
+  
+  .slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+  }
+  
+  .slider:before {
+	position: absolute;
+	content: "";
+	height: 9px;
+	width: 9px;
+	left: 2px;
+	bottom: 3px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .3s;
+  }
+  
+  input:checked + .slider {
+	background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+	box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+	-webkit-transform: translateX(17px);
+	-ms-transform: translateX(17px);
+	transform: translateX(17px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+	border-radius: 34px;
+  }
+  
+  .slider.round:before {
+	border-radius: 50%;
+  }
