@@ -1,1 +1,1 @@
-This webpage is very simple. I believe you can easily spot out all the functions.
+This webpage is very simple. I believe you can easily spot out all the functions. Since the hyperlink links to some of my personal info which I want to keep them in secret. All hyperlinks requiring password are directing to nothing/404:Not found
